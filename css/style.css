@@ -297,11 +297,21 @@ figure {
         min-height: 700px;
         padding: 2.5em;
         position: relative; }
+      #colorlib-hero .flexslider .slider-text > .slider-text-inner2 {
+        display: table-cell;
+        vertical-align: middle;
+        min-height: 700px;
+        padding: 2.5em;
+        position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: right; 
             vertical-align: bottom;
-            padding: 1.0em;} }
+            padding: 1.0em;} 
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner2 {
+              text-align: right; 
+              vertical-align: center;
+              padding: 1.0em;} }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
@@ -326,16 +336,16 @@ figure {
               font-weight: 1000;
               text-align: right;
               color:#fff}; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner h5 {
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner2 h5 {
           margin-bottom: 20px;
           font-size: 100px;
           line-height: 1.3;
           font-weight: 700; 
           text-align: center;}
           @media screen and (max-width: 768px) {
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner h5 {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner2 h5 {
                     text-align: center;
-                    font-size: 28px; } }
+                    font-size: 225% } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 18px;
           line-height: 1.5;
