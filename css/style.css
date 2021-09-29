@@ -370,8 +370,9 @@ figure {
             background: transparent !important; }
             @media screen and (max-width: 768px) {
               #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-                width: 55%;  
+                width: 62%;  
                 color:#fff;
+                padding: 5px 5px !important;
                 border: 3px solid #fff;
               } }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
@@ -381,7 +382,7 @@ figure {
               border: 6px solid rgb(0, 204, 78) !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
-              width: 50%;  
+              width: 60%;  
               color:rgb(0, 204, 78);
             } }
 
