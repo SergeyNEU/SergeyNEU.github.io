@@ -12,7 +12,7 @@ export default class Footer extends Component {
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="col-md-12">
                     <div className="about-desc">
-                    <span className="urbanist-500"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></span>
+                    <span className="urbanist-500"></span>
                     </div>
                 </div>
                 </div>
