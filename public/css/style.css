@@ -368,6 +368,12 @@ figure {
             color: #000;
             border: 3px solid #000;
             background: transparent !important; }
+            @media screen and (max-width: 768px) {
+              #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+                width: 55%;  
+                color:#fff;
+                border: 3px solid #fff;
+              } }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               font-size: 23px;
               color:rgb(0, 204, 78);
