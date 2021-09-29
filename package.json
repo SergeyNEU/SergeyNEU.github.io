@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sergeyneu.github.io",
+  "homepage": "https://sergeyneu.github.io",
   "dependencies": {
     "npx": "^10.2.2",
     "react": "^16.13.1",
@@ -30,6 +30,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "rsuite": "^4.10.3"
   }
 }

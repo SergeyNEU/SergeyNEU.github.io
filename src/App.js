@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import TextTransition, { presets } from "react-text-transition";
 import './App.css';
 import Sidebar from './components/sidebar'
 import Introduction from './components/introduction'
 import About from './components/about'
-import Timeline from './components/timeline'
+import Education from './components/education'
+import Work from './components/work'
+//import Footer from './components/footer'
+import Projects from './components/projects'
 
 class App extends Component {
   render() {
@@ -15,31 +17,14 @@ class App extends Component {
 				<div id="colorlib-main">
 					<Introduction></Introduction>
 					<About></About>
-					<Timeline></Timeline>
+          <Projects></Projects>
+          <Education></Education>
+          <Work></Work>
           	</div>
       	</div>
       </div>
     );
   }
 }
-
-const TEXTS = [
-  "Forest",
-  "Building",
-  "Tree",
-  "Color"
-];
-
-const Test = () => {
-  const [index, setIndex] = React.useState(0);
-
-  React.useEffect(() => {
-    const intervalId = setInterval(() =>
-      setIndex(index => index + 1),
-      3000 // every 3 seconds
-    );
-    return () => clearTimeout(intervalId);
-  }, []);
-};
 
 export default App;

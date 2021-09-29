@@ -12,11 +12,12 @@ export default class About extends Component {
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="col-md-12">
                     <div className="about-desc">
-                    <span className="urbanist-500">About Me...</span>
+                    <span className="urbanist-500">Who Am I?</span>
 
-                    <h2 className="urbanist-italics-500">Who Am I?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mattis enim ut tellus elementum sagittis. Congue eu consequat ac felis donec et. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus.</p>
-                    <p>Facilisis gravida neque convallis a cras semper auctor neque.</p>
+                    <h2 className="urbanist-italics-500">About Me</h2>
+                    <p>I'm a junior undergraduate student currently attending Northeastern University and working towards a Bachelor of Science in Electrical and Computer Engineering. I live and breathe everything-computers: from the interfaces that clients interact with, to high-speed networking, to low-level embedded programming, I love what I do!</p>
+                    <p>My unique skill set of both leadership and programming experiences has given me the ability to contribute to meaningful and important projects, such as the development of Terahertz communications at the Ultrabroadband Laboratory in Northeastern University and the maintenance and development of new satellite management software at Kythera Space Solutions.</p>
+                    <p>I am always searching for projects to contribute to and will strive to use my existing background experiences to bring a unique perspective to any team.</p>
                     </div>
                 </div>
                 </div>
@@ -28,13 +29,13 @@ export default class About extends Component {
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="urbanist-500">What I do?</span>
-                <h2 className="urbanist-italics-500">My areas of expertise...</h2>
+                <span className="urbanist-500">The things I love...</span>
+                <h2 className="urbanist-italics-500">Areas of Expertise</h2>
             </div>
             </div>
             <div className="row row-pt-md">
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
+                <div className="services expertise-1">
                 <span className="icon">
                     <i className="icon-bulb" />
                 </span>
@@ -45,7 +46,7 @@ export default class About extends Component {
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
+                <div className="services expertise-2">
                 <span className="icon">
                     <i className="icon-phone3" />
                 </span>
@@ -56,47 +57,47 @@ export default class About extends Component {
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-5">
+                <div className="services expertise-3">
                 <span className="icon">
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
                     <h3>Test 3</h3>
-                    <p>Pretium aenean pharetra magna ac placerat. Sem viverra aliquet eget sit.</p>
+                    <p>Pretium aeneaan pharetraaa maganaa aac plaacerat. Sem viverra aliquet eget sit.</p>
                 </div>
                 </div>
             </div>
             
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
+                <div className="services expertise-4">
                 <span className="icon">
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
                     <h3>Dev Ops</h3>
-                    <p>Jenkins , Kubernetes , Docker </p>
+                    <p>Pretium aeneaan pharetraaa maganaa aac plaacerat. Sem viverra aliquet eget sit.</p>
                 </div>
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-4">
+                <div className="services expertise-5">
                 <span className="icon">
                     <i className="icon-layers2" />
                 </span>
                 <div className="desc">
                     <h3>Graphic Design</h3>
-                    <p>My friend knows .. P</p>
+                    <p>Pretium aeneaan pharetraaa maganaa aac plaacerat. Sem viverra aliquet eget sit.</p>
                 </div>
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-6">
+                <div className="services expertise-6">
                 <span className="icon">
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
                     <h3>Digital Marketing</h3>
-                    <p>I use Instagram eight hours a day :) </p>
+                    <p>Pretium aeneaan pharetraaa maganaa aac plaacerat. Sem viverra aliquet eget sit.</p>
                 </div>
                 </div>
             </div>
