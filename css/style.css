@@ -358,6 +358,7 @@ figure {
           margin-bottom: 0; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
           font-size: 20px;
+          transition: all 0.5s ease-out;
           text-transform: none;
           font-family: 'Urbanist', sans-serif;
           letter-spacing: 2px;
@@ -368,18 +369,29 @@ figure {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #000;
             border: 3px solid #000;
-            background: transparent !important; }
+            background: transparent !important;
+            }
             @media screen and (max-width: 768px) {
               #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
                 width: 62%;  
                 color:#fff;
-                border: 3px solid #fff;
+                border: 2px solid #fff;
               } }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               font-size: 23px;
+              padding: 10px 90px !important;
               color:rgb(0, 204, 78);
               background: transparent !important;
-              border: 6px solid rgb(0, 204, 78) !important; }
+              border: 6px solid rgb(0, 204, 78) !important;
+              }
+              @media screen and (max-width: 768px) {
+                #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
+                  font-size: 23px;
+                  padding: 10px 15px !important;
+                  color:rgb(0, 204, 78);
+                  background: transparent !important;
+                  border: 4px solid rgb(0, 204, 78) !important;
+                } }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 60%;  
