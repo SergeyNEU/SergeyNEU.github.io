@@ -784,11 +784,11 @@ body.offcanvas {
       border-width: 30px 50px 0 50px;
       border-color: #2c98f0 transparent transparent transparent; }
     .services .icon i {
-      font-size: 30px;
+      font-size: 60px;
       color: #fff;
       z-index: 1;
       display: table-cell;
-      vertical-align: middle; }
+      vertical-align: center; }
   .services .desc {
     margin-top: 60px; }
     .services .desc h3 {
