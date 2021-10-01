@@ -137,10 +137,10 @@ figure {
       color: #000;
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
-    display: initial;
+    display: block;
     width: 100%; }
     #colorlib-aside #colorlib-main-menu .collapse {
-      display: initial !important; }
+      display: block !important; }
     #colorlib-aside #colorlib-main-menu ul {
       text-align: center;
       margin: 0;
