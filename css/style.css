@@ -138,12 +138,14 @@ figure {
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
     display: block;
+    margin-bottom: 15px;
     width: 100%; }
     #colorlib-aside #colorlib-main-menu .collapse {
-      display: block !important; }
+      display: block !important; 
+      margin-bottom: 15px;}
     #colorlib-aside #colorlib-main-menu ul {
       text-align: center;
-      margin: 0;
+      margin-bottom: 15px;
       padding: 0; }
       @media screen and (max-width: 768px) {
         #colorlib-aside #colorlib-main-menu ul {
