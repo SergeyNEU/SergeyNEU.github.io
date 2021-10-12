@@ -186,7 +186,7 @@ figure {
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
           #colorlib-aside #colorlib-main-menu ul li a:hover {
             text-decoration: none;
-            color: black; }
+            color: #2c98f0; }
             #colorlib-aside #colorlib-main-menu ul li a:hover:after {
               visibility: visible;
               -webkit-transform: scaleX(1);
@@ -385,6 +385,7 @@ figure {
             @media screen and (max-width: 768px) {
               #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
                 width: 62%;  
+                font-size: 5.5vw;
                 color:#fff;
                 border: 2px solid #fff;
               } }
@@ -686,12 +687,18 @@ body.offcanvas {
   margin-top: 15px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 500; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
   color: #000; }
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p b {
+  font-weight: 1200; }
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
+  font-size: 17px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
   -webkit-opacity: .4;
@@ -1591,3 +1598,7 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.bottom-spacer {
+  padding-bottom: 10vw;
+}
